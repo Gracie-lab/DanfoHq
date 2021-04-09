@@ -40,6 +40,10 @@ namespace danfologistics.DbContexts
         {
             Buses.Add(new Bus { id = 100L, name = "Toyota", color = "white" });
             Buses.Add(new Bus { id = 200L, name = "Marcopolo", color = "Arthur" });
+            SaveChanges();
+           
         }   
+
+      
     }
 }
